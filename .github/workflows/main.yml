@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: welcome to project
-        run: echo 'Welcom brooo' 
+      - name: welcome message
+        run: echo "Welcome"
   
     
