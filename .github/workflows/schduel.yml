@@ -1,0 +1,10 @@
+on:
+  schedule:
+    - corn "0 8 * * *"
+jobs:
+  daily_routine_checked:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message
+        run: echo "Hello from daily_routine_checked"
+    
